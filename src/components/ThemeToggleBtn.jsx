@@ -27,14 +27,14 @@ const ThemeToggleBtn = ({ theme, setTheme }) => {
           src={assets.sun_icon}
           alt="Light mode"
           onClick={() => setTheme("light")}
-          className="w-8 h-8 p-1 border border-gray-500 rounded-full"
+          className="w-8 h-8 p-1.5 border border-gray-500 rounded-full"
         />
       ) : (
         <img
           src={assets.moon_icon}
           alt="Dark mode"
           onClick={() => setTheme("dark")}
-          className="w-8 h-8 p-1 border border-gray-500 rounded-full"
+          className="w-8 h-8 p-1.5 border border-gray-500 rounded-full"
         />
       )}
     </button>
